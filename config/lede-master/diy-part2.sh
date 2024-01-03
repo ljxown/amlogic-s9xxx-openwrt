@@ -26,6 +26,9 @@ echo "DISTRIB_SOURCECODE='lede'" >>package/base-files/files/etc/openwrt_release
 #
 # ------------------------------- Main source ends -------------------------------
 
+git clone kenzo https://github.com/kenzok8/openwrt-packages
+git clone small https://github.com/kenzok8/small
+
 # ------------------------------- Other started -------------------------------
 #
 # Add luci-app-amlogic
